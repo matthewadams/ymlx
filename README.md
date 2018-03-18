@@ -3,7 +3,6 @@ Command-line YAML processing tool
 ## Features
 
 * Plain JavaScript to manipulate document(s)
-* Standalone binary
 
 ## Install
 
@@ -11,14 +10,12 @@ Command-line YAML processing tool
 $ npm install -g ymlx
 ```
 
-Or download standalone binary from [releases](https://github.com/matthewadams12/ymlx/releases) page.
-
 ## Usage
 
 Pipe into `ymlx` any YAML and anonymous function for reducing it.
 
 ```
-$ ymlx [code ...]
+$ cat my.yaml | ymlx [code ...]
 ```
 
 ### Anonymous function
