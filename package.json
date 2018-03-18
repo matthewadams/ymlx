@@ -1,0 +1,42 @@
+{
+  "name": "ymlx",
+  "version": "0.1.0-pre.0",
+  "description": "Command-line YAML processing tool",
+  "repository": "https://github.com/matthewadams12/ymlx",
+  "author": "Matthew Adams <ymlx@matthewadams.me>",
+  "license": "MIT",
+  "bin": {
+    "ymlx": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "u": "mocha test/*test.js",
+    "test": "nyc --reporter=html mocha test/*test.js",
+    "posttest": "npm run lint && nyc report",
+    "format": "standard --fix",
+    "lint": "standard --verbose"
+  },
+  "keywords": [
+    "yaml",
+    "yml",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "get-stdin": "6.0.0",
+    "js-yaml": "3.11.0",
+    "meow": "4.0.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "dirty-chai": "2.0.1",
+    "mocha": "5.0.4",
+    "nyc": "11.6.0",
+    "pkg": "4.3.0",
+    "standard": "11.0.1"
+  }
+}
