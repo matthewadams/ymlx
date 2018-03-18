@@ -2,7 +2,7 @@
   "name": "ymlx",
   "version": "1.0.0-pre.0",
   "description": "Command-line YAML processing tool",
-  "repository": "https://github.com/matthewadams12/ymlx",
+  "repository": "https://github.com/matthewadams/ymlx",
   "author": "Matthew Adams <ymlx@matthewadams.me>",
   "license": "MIT",
   "bin": {
