@@ -26,7 +26,7 @@ $ echo 'foo: [bar: value]' | ymlx 'x => x.foo[0].bar'
 value
 ```
 
-### This Binding
+### `this` Binding
 
 If you don't pass anonymous function `param => ...`, code will be automatically transformed into anonymous function.
 And you can get access to YAML by `this` keyword:
