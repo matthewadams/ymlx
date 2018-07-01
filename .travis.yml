@@ -1,0 +1,7 @@
+language: node_js
+deploy:
+  provider: script
+  script: "npm run natives"
+  skip_cleanup: true
+  on:
+    tags: true

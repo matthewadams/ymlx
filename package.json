@@ -16,7 +16,11 @@
     "test": "nyc --reporter=html mocha test/*test.js",
     "posttest": "npm run lint && nyc report",
     "format": "standard --fix",
-    "lint": "standard --verbose"
+    "lint": "standard --verbose",
+    "natives": "npm run linux && npm run macos && npm run win",
+    "linux": "pkg -o dist/linux/ymlx -t node9-linux-x64 index.js",
+    "macos": "pkg -o dist/macos/ymlx -t node9-macos-x64 index.js",
+    "win": "pkg -o dist/win/ymlx.exe -t node9-win-x64 index.js"
   },
   "keywords": [
     "yaml",
