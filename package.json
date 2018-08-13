@@ -1,6 +1,6 @@
 {
   "name": "ymlx",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Command-line YAML processing tool",
   "repository": "https://github.com/matthewadams/ymlx",
   "author": "Matthew Adams <ymlx@matthewadams.me>",
