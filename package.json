@@ -1,6 +1,6 @@
 {
   "name": "ymlx",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Command-line YAML processing tool",
   "repository": "https://github.com/matthewadams/ymlx",
   "author": "Matthew Adams <ymlx@matthewadams.me>",
@@ -9,7 +9,8 @@
     "ymlx": "index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "reduce.js"
   ],
   "scripts": {
     "u": "mocha test/*test.js",
