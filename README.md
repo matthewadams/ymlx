@@ -117,7 +117,7 @@ $ echo '[1,2,3]' | ymlx 'this.reduce((a,n) => a += n.toString(), "concat: ")'
 'concat: 123'
 ```
 
-## Insipiration
+## Inspiration
 
 `ymlx` was inspired by [`fx`](https://github.com/antonmedv/fx)
 
